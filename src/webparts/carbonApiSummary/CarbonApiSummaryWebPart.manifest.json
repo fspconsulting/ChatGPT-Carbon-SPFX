@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "652dbf0e-a8b1-4c05-886c-d8113e69640b",
+  "alias": "CarbonApiSummaryWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "carbonAPISummary" },
+    "description": { "default": "carbonAPISummary description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "carbonAPISummary",
+      "apiUrl": "https://api.carbonintensity.org.uk/regional",
+      "chatGPTKey": "<ADD CHATGPT API KEY HERE>",
+      "chatGPTOrg": "<ADD CHATGPT ORGANISTAION KEY HERE>",
+      "mainQuestion": "what power source is the most carbon efficient region using",
+      "mainSystem": "answer in less than 100 words",
+      "colourQuestion": "what colour best describes the power source that the carbon efficient region using, return the answer as a HTML Color Code ",
+      "colourSystem": "one word answer only",
+      "emojiQuestion": "what emoji code best describes what power source is the most carbon efficient region using",
+      "emojiSystem": "one word answer only"
+    }
+  }]
+}
