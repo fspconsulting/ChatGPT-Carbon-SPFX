@@ -2,7 +2,7 @@
 
 ## Summary
 
-Demo webpart showing how we can use ChatGPT to process data from an external API. In this case we are using the Carbon Intensity API provided by https://carbonintensity.org.uk/
+Demo SPFx webpart showing how you can use ChatGPT to process data from an external API. The demo uses the Carbon Intensity API provided by https://carbonintensity.org.uk/ but the approach could be extended to use any API that returns structured data.
 
 ![Carbon API Summary Webpart](assets/demo-screen-1.png)
 
@@ -19,7 +19,7 @@ Demo webpart showing how we can use ChatGPT to process data from an external API
 
 ## Prerequisites
 
-This webpart uses the API provided by openai.com to work with solutions which use ChatGPT. As such you will need to create an openai account from [openai](http://openai.com) and generate an API key.
+This webpart uses the API provided by OpenAI to work with solutions which use ChatGPT. As such you will need to create an OpenAI account from [OpenAI](http://openai.com) and generate an API key.
 
 
 ## Version history
@@ -38,7 +38,7 @@ This webpart uses the API provided by openai.com to work with solutions which us
 
 - Clone this repository
 - Ensure that you are at the solution folder
-- Update the CarbonApiSummaryWebPart.manifest with you openai key and organisation (can be done later in the webpart properties if needed).
+- Update the CarbonApiSummaryWebPart.manifest with you  key and organisation (can be done later in the webpart properties if needed).
 - in the command-line run:
   - **npm install**
   - **gulp serve**
@@ -50,8 +50,8 @@ Description of the extension that expands upon high-level summary above.
 
 This extension illustrates the following concepts:
 
-- How to get data from an exteranl API in an SPFX webpart
-- How to integrate openai's API into an SPFX webpart
+- How to get data from an external API in an SPFx webpart
+- How to integrate OpenAI's API into an SPFx webpart
 - How to use ChatGPT to query data
 
 The webpart was designed to read data from a carbon intensity api but will work with pretty much any anonymous api.
