@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "carbon-api-summary-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carbonApiSummary/CarbonApiSummaryWebPart.js",
+          "manifest": "./src/webparts/carbonApiSummary/CarbonApiSummaryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CarbonApiSummaryWebPartStrings": "lib/webparts/carbonApiSummary/loc/{locale}.js"
+  }
+}
